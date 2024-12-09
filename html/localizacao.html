@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hotel Estrela do Mar</title>
+
+        <link rel="shortcut icon" href="../img/logotipo_separador.jpg" type="image/x-icon">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/localizacao.css">
+
+    </head>
+
+
+    <body>
+        <header class="cabecalho vw-100">
+            <center>
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+
+                        <a href="../index.html">
+                            <img src="../img/logotipo.jpg" alt="" class="logotipo">
+                        </a>
+
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+
+                        <p class="titulo">
+                            Estrela do Mar Luxury Hotel
+                        </p>        
+
+                    </div>
+
+                    <div class="col-sm-12 col-md-3 redes_sociais">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.png" alt="" title=""></a>
+                        <a href="https://pt.linkedin.com/" target="_blank"><img src="../img/Linkedin.png" alt=""></a>
+                    </div>
+                </div>
+
+            </center>
+        </header>
+      
+        <main>
+
+            <div class="row mx-auto seccao_localizacao">
+                <div class="col-sm-12 col-md-6">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10101.995278392775!2d-8.558356573069803!3d41.17072545636856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2spt!4v1710526044733!5m2!1spt-PT!2spt" class="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div class="col-sm-12 col-md-6 localizacao">
+                    <div class="card text-center mx-auto">
+                        <div class="card-header">
+                            <h5 class="card-title">Localização</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil asperiores voluptatem, facilis sequi ratione iure eveniet nemo harum. Placeat repellendus, aliquid illo ad possimus eos distinctio adipisci reiciendis ab nostrum!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div class="rodape">
+                Ao visitar ou usar os nossos serviços, está a concordar com o uso de cookies conforme descrito nos nossos
+                <a href="./termos.html">Termos de Serviço, Política de Cookies e Outros</a>
+                <br>
+                <a href="mailto:ismael.costa.formacao@gmail.com" target="#blank"> 
+                    ismael.costa.formacao@gmail.com
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.livroreclamacoes.pt/Inicio/" target="#blank">
+                    livro de reclamacoes
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">&copy; 2023 ALIVIC Web Solutions Development - Todos os direitos reservados</a>
+            </div>
+
+        </footer>
+
+        <div class="botao-topo sticky-bottom">
+            <center>
+                <a href="#">
+                    <img src="./img/topo.png" alt="">
+                </a>
+            </center>
+        </div>
+
+    </body>
+
+</html>
+
+<script>
+    const botaoTopo = document.querySelector(".botao-topo");
+  
+    window.addEventListener("scroll", function(event){
+      if (window.scrollY >= 100) {
+        botaoTopo.classList.add("botao-topo-mostrar");
+        botaoTopo.classList.remove("botao-topo-esconder");
+      } else {
+        botaoTopo.classList.add("botao-topo-esconder");
+      }
+    });
+  </script>

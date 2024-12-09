@@ -1,0 +1,36 @@
+#msgErro {
+    display: none;
+    font-size: 16px;
+  }
+  
+#msgErro.visible {
+    display: block;
+  }
+  
+input.invalid {
+    border-color: red;
+    border-width: 3px;
+    animation: animate 1.5s linear infinite;
+  }
+
+input.valid {
+    border-color:green;
+    border-width: 3px;
+    animation: none;
+  }
+
+#msgErro.invisible {
+    display: none;
+  }
+
+@keyframes animate{
+    0%{
+      opacity: 0.3;
+    }
+    50%{
+      opacity: 1.0;
+    }
+    100%{
+      opacity: 0.3;
+    }
+  }

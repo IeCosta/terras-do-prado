@@ -1,0 +1,50 @@
+.card{
+    text-align: justify;
+    box-shadow : 5px 6px 10px rgb(93, 104, 103);
+    min-height: 250px;
+    text-align: center;
+}
+
+.card p{
+    line-height: 35px;
+}
+
+.card img{
+    width: 100px;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+#empresa,
+#visao,
+#missao,
+#valores{
+    height: 80px;
+    padding-top: 80px;
+}
+
+
+
+@media screen and (max-width: 799px){
+
+    .card img{
+        width: 60px;
+    }
+
+    .card p{
+        line-height: 25px;
+    }
+
+    #empresa,
+    #visao,
+    #missao,
+    #valores{
+    height: 20px;
+    padding-top: 60px;
+    }
+
+}
+
+

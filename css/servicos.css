@@ -1,0 +1,70 @@
+.nav-link,
+.dropdown-item{
+    width:auto;
+}
+
+main .carousel{
+    box-shadow: none;
+}
+
+main .carousel:hover{
+    box-shadow: none;
+    transform: scale(1.0);
+}
+
+.carousel-item img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+}
+
+.carousel-item img:hover{
+    box-shadow: none;
+    transform: scale(1.0);
+}
+
+.card{
+    text-align: justify;
+    box-shadow : 5px 6px 10px rgb(93, 104, 103);
+    min-height: 250px;
+}
+
+.card p{
+    line-height: 35px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+#mecanizacao,
+#aplicacao_quimicos,
+#preparacao_terras,
+#consultoria{
+    height: 80px;
+    padding-top: 80px;
+}
+
+
+
+@media screen and (max-width: 799px){
+
+    #mecanizacao,
+    #aplicacao_quimicos,
+    #preparacao_terras,
+    #consultoria{
+    height: 20px;
+    padding-top: 60px;
+    }
+
+    .card p{
+        line-height: 25px;
+    }
+
+}
+
+

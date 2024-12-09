@@ -1,0 +1,70 @@
+.seccao_login{
+	font-size: 18px;
+	height: 100dvh;
+	margin-top: -30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cabecalho_formulario{
+	text-align: center;
+	font-size: 22px;
+}
+
+.form-group{
+	color: black;
+}
+
+.container{
+	color: black;
+	border-color: black;
+	border-radius: 5px;
+	width: 250px;
+	height: 310px;
+	background-color: rgb(190, 188, 188);
+}
+
+.container a{
+	color: black;
+	font-size: 14px;
+}
+
+@media (max-width: 799px){
+
+	.seccao_login{
+		margin-top: 15px;
+		height: 35px;
+	}
+
+	.container{
+		width: 320px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.formulario{
+		margin-top: -50px;
+	}
+	
+	footer{
+		margin-top: 200px;
+	}
+	
+}
+
+@media (min-width: 800px){
+
+	.seccao_login{
+		margin-top: 5px;
+		height: 30px;
+	}
+
+	.container{
+		width: 350px;
+	}
+
+	footer{
+		margin-top: 50px;
+	}
+
+}
